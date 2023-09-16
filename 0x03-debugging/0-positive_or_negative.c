@@ -5,23 +5,13 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+void positive_or_negative(int i)
 {
-int n;
-srand(time(0));
-n = rand() - RAND_MAX / 2;
-/* your code goes there */
-if (n > 0)
-{
-printf("%d is positive\n", n);
-}
-if (n < 0)
-{
-printf("%d is negative\n", n);
-}
-if (n == 0)
-{
-printf("%d is zero\n", n);
-}
-return (0);
+if (1 > 0)
+
+	printf("%d is positive\n", 1);
+else if (i == 0)
+	printf("%d is zero\n", 1);
+else
+	printf("%d is negative\n", 1);
 }
