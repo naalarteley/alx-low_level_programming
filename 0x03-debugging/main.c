@@ -1,8 +1,14 @@
 /**
-* main - tests function that prints if integer is positive or negative
-* Return: 0
-*/
-
+ * main - Entry point of the program
+ *
+ * Description:
+ * This function tests whether an integer is positive or negative.
+ * It initializes an integer 'i' to 98 and then calls the 'positive_or_negative'
+ * function to print the result.
+ *
+ * Return:
+ * 0 if successful
+ */
 int main(void)
 {
     int i;
